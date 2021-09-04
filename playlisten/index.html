@@ -1,0 +1,320 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+    <link rel="preconnect" href="https://fonts.gstatic.com">
+    <script src="https://kit.fontawesome.com/25c24f6c17.js" crossorigin="anonymous"></script>
+    <link href="https://fonts.googleapis.com/css2?family=Odibee+Sans&family=Roboto&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="css/style.css">
+    <!-- slick-->
+    <link rel="stylesheet" href="css/imports/slick.css">
+
+    <title>PlayListen</title>
+</head>
+<body>
+    <!-- Landing Page Menu-->
+    <header>
+        <div class="logo-header">
+            <img src="assets/img/logo/logo.png" alt="">
+        </div>
+        <nav class="navbar-header">
+            <ul>
+                <a href="#home-landing"><li>Home</li></a>
+                <a href="#about-landing"><li>Como funciona</li></a>
+                <a href="#playlists-landing"><li>Playlists</li></a>
+                <a href="#feedback-landing"><li>Feedbacks</li></a>
+                <a href="#contact-landing"><li>Contato</li></a>
+            </ul>
+            <div class="login-btn-header">
+                <button id="loginButtonHeader" type="button">Começe a ouvir agora</button>
+            </div>
+            <div class="sidebarCollapse">
+                <button class="sidebar-open" onclick="openNav()"></button>
+            </div>    
+        </nav>    
+    </header>
+
+     <!-- SideBar-->
+
+    <div id="sidebar-overlay"></div>
+    <div id="sidebar">
+        <button id="close-sidebar" onclick="closeNav()"></button>
+        <ul>
+            <a href="#home-landing"><li>Home</li></a>
+            <a href="#about-landing"><li>Como funciona</li></a>
+            <a href="#playlists-landing"><li>Playlists</li></a>
+            <a href="#feedback-landing"><li>Feedbacks</li></a>
+            <a href="#contact-landing"><li>Contato</li></a>
+        </ul>
+        <button id="loginButtonSideBar" type="button">Começe a ouvir agora</button>
+    </div>
+
+    <main>
+        <div id="home-landing" class="banner">
+            <div class="text-banner">
+                <h1>Escute Playlists feitas para suas jogatinas.</h1>
+                <p class="p1-banner">Coleções de Musicas personalizadas por nós para deixar as  suas partidas e campanhas mais imersivas.</p>
+                <p class="p2-banner">Faça seu cadastro e ja começe a ouvir todas as nossas playlists.</p>
+            </div>
+            <div class="img-banner"></div>
+        </div>
+
+        <!-- COMO FUNCIONA-->
+
+        <div id="about-landing">
+            <div class="title-content">
+                <div class="title">
+                    Como Funciona
+                </div>
+            </div>
+            <div class="content">
+                <div class="card ">
+                    <div class="card-content">
+                        <h2>What is Lorem Ipsum?</h2>
+                        <div class="card-p">
+                            <p>Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500s, when an unknown printer took a galley</p>
+                            <p>Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500s, when an unknown printer took a galley</p>
+                            <p>Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500s, when an unknown printer took a galley</p>
+                        </div>
+                        <button type="button">Saiba Mais</button>
+                    </div> 
+                    <div class="card-img"></div>
+                </div>
+            </div>
+        </div>
+
+        <!-- PLAYLIST -->
+
+        <div id="playlists-landing">
+            <div class="title-content-nomargin">
+                <div class="title">
+                    Ultimas Playlists
+                </div>
+            </div>
+            <div class="content-playlist">
+                <div id="playlist-prev"><i class="fas fa-chevron-left"></i></div>
+                <div class="playlist-slider">
+                    <div class="playlist" style="height: 350px;">
+                        <div class="playlist-img"></div>
+                        <h2>RPG Playlist #1</h2>
+                        <p>16 de abril de 2021</p>
+                    </div>
+                    <div class="playlist" style="height: 350px;">
+                        <div class="playlist-img"></div>
+                        <h2>RPG Playlist #1</h2>
+                        <p>16 de abril de 2021</p>
+                    </div>
+                    <div class="playlist" style="height: 350px;">
+                        <div class="playlist-img"></div>
+                        <h2>RPG Playlist #1</h2>
+                        <p>16 de abril de 2021</p>
+                    </div>
+                    <div class="playlist" style="height: 350px;">
+                        <div class="playlist-img"></div>
+                        <h2>RPG Playlist #1</h2>
+                        <p>16 de abril de 2021</p>
+                    </div>
+                    <div class="playlist" style="height: 350px;">
+                        <div class="playlist-img"></div>
+                        <h2>RPG Playlist #1</h2>
+                        <p>16 de abril de 2021</p>
+                    </div>
+                    <div class="playlist" style="height: 350px;">
+                        <div class="playlist-img"></div>
+                        <h2>RPG Playlist #1</h2>
+                        <p>16 de abril de 2021</p>
+                    </div>
+                    <div class="playlist" style="height: 350px;">
+                        <div class="playlist-img"></div>
+                        <h2>RPG Playlist #1</h2>
+                        <p>16 de abril de 2021</p>
+                    </div>
+                    <div class="playlist" style="height: 350px;">
+                        <div class="playlist-img"></div>
+                        <h2>RPG Playlist #1</h2>
+                        <p>16 de abril de 2021</p>
+                    </div>
+                </div>
+                <div id="playlist-next"><i class="fas fa-chevron-right"></i></div>
+            </div>
+        </div>
+
+        <!-- FEEDBACK -->
+
+        <div id="feedback-landing">
+            <div class="title-content-nomargin">
+                <div class="title">
+                    Ultimos FeedBacks
+                </div>
+            </div>
+            <div class="content-feedback">
+                <div id="feedback-prev"><i class="fas fa-chevron-left"></i></div>
+                <div class="feedback-slider">
+                    <!-- feedback slide -->
+                    <div class="feedback" style="height: 350px;">
+                        <div class="feedback-inner">
+                            <div class="feedback-header">
+                                <div class="feedback-data">
+                                    <div class="feedback-img"></div>
+                                    <div>
+                                        <h2>Nome do Usuario</h2>
+                                        <div class="feedback-rating">
+                                        <i class="fas fa-star"></i>
+                                        <i class="fas fa-star"></i>
+                                        <i class="fas fa-star"></i>
+                                        <i class="fas fa-star"></i>
+                                        <i class="fas fa-star"></i>
+                                    </div>
+                                    </div>
+                                </div>
+                                <div class="feedback-date">16/10/2020</div>
+                            </div>
+                            <p class="feedback-comment">Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500s, when an unknown printer took a galley Lorem Ipsum has been the industry's standard dummy text ever since the 1500s, when an unknown printer took a galleyLorem Ipsum has been the industry's standard dummy text ever since the 1500s, when an unknown printer took a galley</p>
+                        </div>
+                    </div>
+                    <!-- feedback slide -->
+                    <div class="feedback" style="height: 350px;">
+                        <div class="feedback-inner">
+                            <div class="feedback-header">
+                                <div class="feedback-data">
+                                    <div class="feedback-img"></div>
+                                    <div>
+                                        <h2>Nome do Usuario</h2>
+                                        <div class="feedback-rating">
+                                        <i class="fas fa-star"></i>
+                                        <i class="fas fa-star"></i>
+                                        <i class="fas fa-star"></i>
+                                        <i class="fas fa-star"></i>
+                                        <i class="fas fa-star"></i>
+                                    </div>
+                                    </div>
+                                </div>
+                                <div class="feedback-date">16/10/2020</div>
+                            </div>
+                            <p class="feedback-comment">Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500s, when an unknown printer took a galley Lorem Ipsum has been the industry's standard dummy text ever since the 1500s, when an unknown printer took a galleyLorem Ipsum has been the industry's standard dummy text ever since the 1500s, when an unknown printer took a galley</p>
+                        </div>
+                    </div>
+                    <!-- feedback slide -->
+                    <div class="feedback" style="height: 350px;">
+                        <div class="feedback-inner">
+                            <div class="feedback-header">
+                                <div class="feedback-data">
+                                    <div class="feedback-img"></div>
+                                    <div>
+                                        <h2>Nome do Usuario</h2>
+                                        <div class="feedback-rating">
+                                        <i class="fas fa-star"></i>
+                                        <i class="fas fa-star"></i>
+                                        <i class="fas fa-star"></i>
+                                        <i class="fas fa-star"></i>
+                                        <i class="fas fa-star"></i>
+                                    </div>
+                                    </div>
+                                </div>
+                                <div class="feedback-date">16/10/2020</div>
+                            </div>
+                            <p class="feedback-comment">Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500s, when an unknown printer took a galley Lorem Ipsum has been the industry's standard dummy text ever since the 1500s, when an unknown printer took a galleyLorem Ipsum has been the industry's standard dummy text ever since the 1500s, when an unknown printer took a galley</p>
+                        </div>
+                    </div>
+                    <!-- feedback slide -->
+                    <div class="feedback" style="height: 350px;">
+                        <div class="feedback-inner">
+                            <div class="feedback-header">
+                                <div class="feedback-data">
+                                    <div class="feedback-img"></div>
+                                    <div>
+                                        <h2>Nome do Usuario</h2>
+                                        <div class="feedback-rating">
+                                        <i class="fas fa-star"></i>
+                                        <i class="fas fa-star"></i>
+                                        <i class="fas fa-star"></i>
+                                        <i class="fas fa-star"></i>
+                                        <i class="fas fa-star"></i>
+                                    </div>
+                                    </div>
+                                </div>
+                                <div class="feedback-date">16/10/2020</div>
+                            </div>
+                            <p class="feedback-comment">Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500s, when an unknown printer took a galley Lorem Ipsum has been the industry's standard dummy text ever since the 1500s, when an unknown printer took a galleyLorem Ipsum has been the industry's standard dummy text ever since the 1500s, when an unknown printer took a galley</p>
+                        </div>
+                    </div>
+                </div>
+                <div id="feedback-next"><i class="fas fa-chevron-right"></i></div>
+            </div>
+        </div>
+
+         <!-- CONTATO -->
+        <div id="contact-landing">
+            <div class="content-contact">
+                <div class="contact-line">
+                    <div class="contact-title">
+                        <h2>Entre em contato conosco</h2>
+                    </div>
+                    <div class="contact-inputGroup">
+                        <div class="contact-input">
+                            <input type="text" name="name-contact" placeholder="Digite aqui seu nome completo">
+                        </div>
+                        <div class="contact-input">
+                            <input type="text" name="email-contact" placeholder="Digite aqui seu endereço de email">
+                        </div>
+                        <div class="contact-input">
+                            <textarea type="text" name="mensage-contact" placeholder="Digite aqui sua mensagem"></textarea>
+                        </div>
+                        <div class="contact-input">
+                            <button name="email-contact">Enviar Email</button>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+
+        <!-- RODAPE-->
+        <footer>
+            <div class="footer-overlay"></div>
+            <div class="footer-container">
+                <div class="footer-menu">
+                    <div class="footer-menu-first">
+                        <img src="assets/img/logo/logo.png" alt="">
+                        <p>Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500s, when an unknown printer took a galley</p>
+                        <div class="footer-social">
+                            <i class="fab fa-facebook-f"></i>
+                            <i class="fab fa-whatsapp"></i>
+                            <i class="fab fa-instagram"></i>
+                        </div>
+                    </div>
+                    <div class="footer-menu-second">
+                        <h2>Navegação</h2>
+                        <ul>
+                            <li>Home</li>
+                            <li>Como Funciona</li>
+                            <li>Playlists</li>
+                            <li>FeedBacks</li>
+                            <li>Contato</li>
+                        </ul>
+                    </div>
+                    <div class="footer-menu-third">
+                        <h2>Se inscreva para receber nossos newsletter</h2>
+                        <p>Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500s, when an unknown printer took a galley</p>
+                        <div class="newsletter-email">
+                            <input type="text">
+                            <i class="fas fa-chevron-right"></i>
+                        </div>
+                    </div>
+                </div>
+                <div class="copyright-footer">
+                    <p>Copyright © 2021 | PlayListen</p>
+                </div>
+            </div>
+        </footer>
+    </main>
+
+    <!-- SCRIPTS -->
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.5.1/jquery.min.js"></script>
+    <!-- slick -->
+    <script src="js/imports/slick.min.js"></script>
+    <script src="js/landingScript.js"></script>
+</body>
+</html>
